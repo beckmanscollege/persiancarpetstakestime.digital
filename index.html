@@ -11,62 +11,87 @@
     <link rel="stylesheet" href="/style.css" />
 
     <style>
+ 
+      
+      
+body {
+  font-family: century gothic pro, bold;
+  margin: 5em;
+  background: #f2dab8;
+  color: black;
+  overflow: hidden;
+      }
 
-                      /* RESET */
-                  *,
-                   *:before,
-                       *:after {
-                                box-sizing: border-box;
-                       }
-                                               html,
-                        body {
-                                                 margin: 0px;
-                                                 height: 100%;
-                                               }
-                                               a {
-                                                 text-decoration: inherit;
-                                                 color: inherit;
-                                               }
-                                               p,
-                                               h1,
-                                               h2,
-                                               h3 {
-                                                 margin: 0;
-                                                 font-size: inherit;
-                                                 font-weight: inherit;
-                                               }
-                                               img {
-                                                 display: inline-block;
-                                                 border: 0;
-                                                 max-width: 100%;
-                                                 height: auto;
-                                                 vertical-align: middle;
-                                               }
-
-                                               body {
-                                                 font-family: futura, sans-serif;
-                                                 margin: 5em;
-                                                 background: #f2dab8;
-                                                 color: #f2dab8;
-                                               }
-
-                                               h1 {
-                                                 font-style: normal;
-                                                 color: white;
-                                                 text-align: center;
-                                                 font-size: 40px;
-                                               }
-
-                                               main {
-                                                 display: flex;
-                                                 flex-wrap: wrap;
-                                               margin: -1%;
-                                               }
-
-                                               
-
-                                        
-
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1%;
+      }
+      
+     
+/* Övre Långsida*/
+p1 {
+  color: #2a4659;
+  text-align:center;
+  font-size: 50px;
+  margin-top:100px;
+  position: absolute;
+      }
+/* Undre Långsida*/
+p4 {
+  color: #2a4659;
+  text-align:center;
+  font-size: 50px;
+  margin-top:600px;
+  margin-left: 0px;
+      }
+      
+/* Vänster Kortsida*/
+p2 {
+    color: #db7a57;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -290px;
+    margin-left: 440px;
+    transform: rotate(-90deg);
+    position: absolute;
+  
+      }
+/* Höger Kortsida 
+p3 {
+  color: #db7a57;
+  text-align:center;
+  font-size: 50px;
+  margin-top:360px;
+  margin-left: 950px;
+  transform: rotate(90deg);
+  position: absolute;
+      }*/ 
+      
+#wrap {
+   display: flex;
+   flex-wrap: wrap;
+      }
+      
+#litentext {
+  font-family: century gothic pro, sans-serif;
+  font-style: italic;
+  color: white;
+  position: absolute;
+  margin-top: 265px;
+  margin-left: 130px;
+  
+  font-size: 30px;
+  background-color: #f5d0a3;
+  border: 1vw solid #2a4659;
+  width: 70vw;
+  height: 11vw;
+  padding-top: 40px;
+  text-align: center;
+  border-radius: 300px;
+  
+}
+     
 
 /* MATTA 1*/
 
@@ -82,7 +107,6 @@
   border: 2vw solid #2a4659;
   margin: auto;
       }
-
 .orange-center-yta {
   width: 50vw;
   background: #e49864;
@@ -91,150 +115,229 @@
   padding: 2vw 0vw;
   margin: auto;
       }
-
 .fyrkant1 {
   width: 7.5vw;
   height: 7.5vw;
   background: #ffe5bf;
   margin: 2.5vw;
       }
-
 .fyrkant2 {
   width: 7.5vw;
   height: 7.5vw;
   background: #ca7f58;
   margin: 2.5vw;
       }
-     
 .fyrkant3 {
   width: 7.5vw;
   height: 7.5vw;
   background: #a06658;
   margin: 2.5vw;
-      }
-      
+      }  
 .fyrkant4 {
   width: 7.5vw;
   height: 7.5vw;
   background: #db7a57;
   margin: 2.5vw;
       }
+.fyrkant4x {
+  width: 7.5vw;
+  height: 7.5vw;
+  background: #db7a57;
+  margin: 2.5vw;
+      }
+.fyrkant3x {
+  width: 7.5vw;
+  height: 7.5vw;
+  background: #a06658;
+  margin: 2.5vw;
+      }
+.fyrkant2x {
+  width: 7.5vw;
+  height: 7.5vw;
+  background: #ca7f58;
+  margin: 2.5vw;
+      }
+.fyrkant1x {
+  width: 7.5vw;
+  height: 7.5vw;
+  background: #ffe5bf;
+  margin: 2.5vw;
+      }
 
-                  .fyrkant4x {
-                                                 width: 7.5vw;
-                                                 height: 7.5vw;
-                                                 background: #db7a57;
-                                                 margin: 2.5vw;
-                                                  }
-                  .fyrkant3x {
-                                                 width: 7.5vw;
-                                                 height: 7.5vw;
-                                                 background: #a06658;
-                                                 margin: 2.5vw;
-                                                  }
-                  .fyrkant2x {
-                                                 width: 7.5vw;
-                                                 height: 7.5vw;
-                                                 background: #ca7f58;
-                                                 margin: 2.5vw;
-                  }
-            .fyrkant1x {
-                                                 width: 7.5vw;
-                                                 height: 7.5vw;
-                                                 background: #ffe5bf;
-                                                 margin: 2.5vw;
-                  }
+/* MATTA 2*/
 
-            /* MATTA 2*/
-
-            .matta2-ram1{
-                                border: 1vw solid #f99f97;
-                                margin:auto;
-                                                           }
-            .matta2-ram2 {
-                                border: 1vw solid #828d91;
-                                         }
-
-            .matta2-ram3 {
-                                border: 1vw solid #aa6b42;
-                                           }
-
-            .matta2-ram4 {
-                                width: 60vw;
-                                height:40vw;
-                                background: #97c4af;
-                                display: flex;
-                                flex-wrap: wrap;
-                                padding: 2vw 0vw;
-
-                                                           }
-
-            .matta2-ram5 {
-                                border: 1vw solid #aa6b42;
-                                margin:auto;
-
-                                                           }
-            .matta2-ram6 {
-
-                                width: 45vw;
-                                background: #828d91;
-                                display: flex;
-                                flex-wrap: wrap;
-                                margin: 10vw 2vw;
-
-                                                           }
+.matta2-ram1{
+  border: 1vw solid #f99f97;
+  margin:auto;
+      }
+.matta2-ram2 {
+  border: 1vw solid #828d91;
+      }
+.matta2-ram3 {
+  border: 1vw solid #aa6b42;
+      }
+.matta2-ram4 {
+  width: 60vw;
+  height:30vw;
+  background: #97c4af;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vw 0vw;
+      }
+.matta2-ram5 {
+  border: 1vw solid #aa6b42;
+  margin:auto;
+      }
+.matta2-ram6 {
+  width: 45vw;
+  background: #828d91;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10vw 2vw;
+      }
+      
 /* MATTA 3*/
 
 .matta3-ram1{
   border: 1vw solid #f09056;
   margin:auto;
       }
-      
 .matta3-ram2 {
   border: 1vw solid #e6bda3;
   margin:auto;
       }
-
 .matta3-ram3 {
   border: 1.5vw solid #f6a685;
   margin:auto;
       }
-
 .matta3-ram4 {
   border: 1vw solid #e8ceb7;
   margin:auto;
       }
-
 .matta3-ram5 {
   border: 2vw solid #e62b24;
   margin:auto;
-      }
-      
+      }      
 .matta3-ram6 {
   border: 2.5vw solid white;
   margin:auto;
-      }
-      
+      }    
 .matta3-ram7 {
   border: 2vw solid #e62b24;
   margin:auto;
-      }
-      
+      }     
 .matta3-ram8 {
   border: 2vw solid #f2b09a;
   margin: auto;
       }
-
 .matta3-ram9 {
   width: 20vw;
-  height: 20vw;
+  height: 10vw;
   background: #e62b24;
   display: flex;
   flex-wrap: wrap;
   padding: 2vw 0vw;
   margin: auto;
       }
+           
+/* MATTA 4*/
 
+.matta4-ram1{
+  border: 2vw solid #3a2d25;
+  margin:auto;
+      }
+.matta4-ram2 {
+  border: 5vw solid #a39d7b;
+  margin:auto;
+      }
+.matta4-ram3 {
+  border: 2vw solid #ae7066;
+  margin:auto;
+      }     
+.matta4-ram5 {
+  width: 40vw;
+  height: 20vw;
+  background: #0f1824;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vw 0vw;
+  margin: auto;
+      } 
+      
+/* MATTA 5*/
+
+.matta5-ram1{
+  border: 0.5vw solid #4d4539;
+  margin:auto;
+      }
+.matta5-ram2 {
+  border: 0.5vw solid #d8baa7;
+      }
+.matta5-ram3 {
+  border: 3vw solid #b07255;
+      }
+.matta5-ram4 {
+  border: 0.5vw solid #3a383e;
+      }
+.matta5-ram5 {
+  border: 1.5vw solid #8e4b40;
+  margin:auto;
+      }
+.matta5-ram6 {
+  border: 0.5vw solid #f5e9cd;
+  margin:auto;
+      }
+.matta5-ram7 {
+  border: 0.5vw solid #28506e;
+  margin:auto;
+      }
+.matta5-ram8 {
+  border: 0.5vw solid #a7473e;
+  margin:auto;
+      }
+.matta5-ram9 {
+  width: 45vw;
+  height:20vw;
+  background: #16162c;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5vw 2vw;
+      }
+
+/* MATTA 6*/
+
+.matta6-ram1{
+ 
+      }
+        
+ /*     
+.flower__head {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: white;
+  margin: 50%;
+  margin-right: 50%;
+padding:100%;
+}
+
+.flower__head::after, .flower__head::before {
+  content: '';
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+  width: 20px;
+  height: 40px;
+  transform: rotate(60deg);
+}
+
+.flower__head::before {
+  transform: rotate(-60deg);
+}*/
+ 
+#matta6{ display: none;}      
+#matta5{ display: none;}
+#matta4{ display: none;}
 #matta3{ display: none;}
 #matta2{ display: none;}
 #matta1{ display: flex;}
@@ -263,8 +366,7 @@
   </head>
 
   <body>
-    <h1></h1>
-
+ 
     <main>
       <div id="matta" class="matta1yttre-bla-ramen" onclick="mattbyte()">
         <div class="beige-ram">
@@ -331,6 +433,75 @@
         </div>
       </div>
     </main>
+    
+     <main>
+      <div id="matta4" class="matta4-ram1" onclick="mattbyte4()">
+        <div class="matta4-ram2">
+          <div class="matta4-ram3">
+            <div class="matta4-ram4">
+              <div class="matta4-ram5">
+                <div class="matta4-ram6">
+                  <div class="matta4-ram7">
+                    <div class="matta4-ram8">
+                      <div class="matta4-ram9">
+                      <div class="flower__head">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    
+     <main>
+      <div id="matta5" class="matta5-ram1" onclick="mattbyte5()">
+        <div class="matta5-ram2">
+          <div class="matta5-ram3">
+            <div class="matta5-ram4">
+              <div class="matta5-ram5">
+                <div class="matta5-ram6">
+                  <div class="matta5-ram7">
+                      <div class="matta5-ram8">
+                        <div class="matta5-ram9">
+                </div>
+                </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    
+<main>
+<div>
+  <div id="wrap" >
+    
+ 
+   <div id="matta6" class="matta6-ram1">
+     <a href="#" onmouseover="natureWebringInfo();" onmouseout="natureWebringLogo();" onclick="randomWebringSite();"><img id="natureLogo" src="https://www.worldwidewebring.club/2021/embed/art-webring.svg" width="10" alt="Part of the nature webring"></a>
+
+     <p1>PERSIAN CARPETS PERSIAN CARPETS PERSIAN CARPETS </p1>
+     <p2> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS <br> PERSIAN CARPETS<br> PERSIAN CARPETS <br> PERSIAN CARPETS</p2>
+     <!--p3> PERSIAN CARPETS</p3-->
+<p id="litentext">
+ Persian carpets takes time. Honour it.  Appreciate it. <br>
+  Shoutout to all the artisan that spends years making <br> these beautiful carpets.
+  
+     </p>
+     <p4> PERSIAN CARPETS PERSIAN CARPETS PERSIAN CARPETS</p4>
+  </div> 
+     </div>
+  </div>
+</main>
+    
     <h2></h2>
 
     <script>
@@ -349,6 +520,61 @@
         matta2.style.display = "none";
         matta3.style.display = "flex";
       }
+      
+      function mattbyte3() {
+        matta3.style.display = "none";
+        matta4.style.display = "flex";
+      }
+      
+      function mattbyte4() {
+        matta4.style.display = "none";
+        matta5.style.display = "flex";
+      }
+      
+       function mattbyte5() {
+        matta5.style.display = "none";
+        matta6.style.display = "flex";
+      }
+       
+      var webringSites = [
+        'http://www.empty-frames.com',
+        'http://www.1outof3.se',
+        'http://www.microscopictrance.com',
+        'http://www.amidonenow.com',
+        'http://www.diplomaprinter.biz',
+        'http://www.findivanshobby.com',
+        'http://www.online-ikebana.garden',
+        'http://www.qwertyuiopasdfghjklzxcvbnm.life',
+        'http://www.findtherightdocument.com',
+        'http://www.connectome.nu',
+        'http://www.destiny.exposed',
+        'http://www.wordsdrifting.space',
+        'http://www.cyrillicintersections.com',
+        'http://www.rockyis.training',
+        'http://www.learnaboutmodernart.com',
+        'http://www.persiancarpetstakestime.digital'
+    ];
+
+  function randomWebringSite() {
+        var i = parseInt(Math.random() * webringSites.length);
+        location.href = webringSites[i];
+    }
+
+  function natureWebringInfo() {
+      document.getElementById("natureLogo").src = "https://www.worldwidewebring.club/2021/embed/art-webring-hover.svg";
+    }
+
+  function natureWebringLogo() {
+      document.getElementById("natureLogo").src = "https://www.worldwidewebring.club/2021/embed/art-webring.svg";
+    }
+      
+      /* LOOPEN
+      function mattbyte4() {
+        matta4.style.display = "none";
+        matta.style.display = "flex";
+      }*/
+      
+      
     </script>
   </body>
 </html>
